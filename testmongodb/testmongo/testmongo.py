@@ -5,8 +5,8 @@ from discord.ext.commands import CommandNotFound
 import pymongo
 from pymongo import MongoClient
 from dotenv import load_dotenv
-#from pickle import TRUE
-#from dns import _immutable_ctx
+from pickle import TRUE
+from dns import _immutable_ctx
 
 load_dotenv()
 TOKEN = os.getenv('MONGOTEST')
